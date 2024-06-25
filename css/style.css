@@ -3,6 +3,7 @@ body{
 }
 .nav{
     background-color: #fff;
+    margin: auto;
 }
 .navbar-brand{
 position: relative; 
@@ -15,7 +16,6 @@ background-color: #fff;
 }
 .nav-link:hover{
     color: blue !important;
-    font-size: 20px !important;
 }
 
 .carousel-item img {
@@ -30,7 +30,7 @@ background-color: #fff;
 }
 
 
-.rr::before{
+.notechild::before{
     content: "";
     position: absolute;
     top: 0;
@@ -40,14 +40,14 @@ background-color: #fff;
     transition: 3s;
 
 }
-.rr:hover.rr::before{
+.notechild:hover.notechild::before{
     width: 100%;
     height: 100%;
     background-color: rgba(109, 28, 208, 0.5); 
     background-color:rgba(150, 150, 150, .5);
 
 }
-.rr::after{
+.notechild::after{
     content: "";
 transition: 3s;
     position: absolute;
@@ -56,14 +56,14 @@ transition: 3s;
     width: 0;
     height: 0;
 }
-.rr:hover.rr::after{
+.notechild:hover.notechild::after{
     width: 100%;
     height: 100%;
     background-color: rgba(109, 28, 208, 0.5); 
     background-color:rgba(150, 150, 150, .5);
 
 }
-.rr  {
+.notechild  {
     width:360px !important;
     height:fit-content;
     position: relative;
@@ -73,7 +73,7 @@ transition: 3s;
 visibility: hidden;
 }
 
-.bf{
+.backgroundfirst{
     background-image: url("../images/call-bg.jpg");
     background-attachment: fixed;
     background-position: right;
@@ -81,7 +81,7 @@ visibility: hidden;
     height:300px;
     position: relative;
 }
-.bf::before{
+.backgroundfirst::before{
     content: "";
     width: 100%;
     height: 100%;
@@ -91,7 +91,7 @@ visibility: hidden;
     background-color: rgba(0, 0, 255, .4);
 
 }
-.bf2{
+.backgroundsecond2{
     background-image: url("../images/blockqoute-bg.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -100,7 +100,7 @@ visibility: hidden;
     margin-top: 150px;
     position: relative;
 }
-.bf2::before{
+.backgroundsecond2::before{
     content: "";
     width: 100%;
     height: 100%;
@@ -175,7 +175,6 @@ visibility: hidden;
 
 .list-unstyled li:hover {
     color: blue;
-    font-size:1.3rem;
 }
 .container{
     margin-top:150px;
